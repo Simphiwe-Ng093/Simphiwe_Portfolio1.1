@@ -1,0 +1,73 @@
+#front_page{
+    height:100vh;
+    width:100%;
+    background-image: url("./images/desktop.jpeg");
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+
+}
+.navbar-brand{
+    color:red;
+    font-weight: bolder;
+}
+.navbar-nav{
+    justify-content: end;
+}
+#about{
+    padding-top: 10px;
+    background-color: #D7E4C0 ;
+    
+}
+.empty{
+    position: relative;
+    width:25vw;
+    height:60vh;
+    background-color: black;
+}
+.myself{
+    
+    position: absolute;
+    left:50px;
+    top:50px;
+}
+.text_me{
+    height:100vh;
+    padding-top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    justify-content: center;
+    
+}
+.text_me > p{
+    width:90%;
+}
+span{
+    font-weight: bolder;
+}
+#projects{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+#projects  img{
+    padding: 10px;
+    width: 90%;
+    height:80%;
+}
+#projects > h1{
+    text-align: center;
+}
+.nav-item a{
+    
+    color: black;
+}
+.active{
+    color:yellow;
+}
+.image_front{
+    border: 10px solid white;
+    border-radius: 14%;
+}
+.image_front_text{
+    color: antiquewhite;
+}
